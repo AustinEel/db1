@@ -2,7 +2,7 @@
 #prof-pic {
   width: 100px;
   height: 100px;
-  border-radius: 50%;
+  border-radius: 90%;
 }
 
 .logo-img{
@@ -78,6 +78,9 @@ height: 800px;
 padding: 200px 0 0 0;
 background-size: cover;
 }
+#footer{
+
+}
 .center {
   margin: 0 auto;
   text-align: center;
@@ -120,7 +123,6 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 
 #footer{
 	text-align: center;
-	margin-top: 20px;
 }
 
 #titlepage a {
