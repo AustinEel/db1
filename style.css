@@ -20,13 +20,24 @@ width: 100%;
   font-family: "Cormorant Garamond", "serif";
 }
 
-#maintitle {
-    text-shadow: 2px 2px #6f6f6f;
-  font-family: "Cormorant Garamond", "serif";
+#leftcolumn {
+  padding: 0px 0 0 300px;
+  width: 500px;
+  float: left;
 }
 
+#rightcolumn {
+  padding: 0px 300px 0 0;
+  width: 500px;
+  float: right;
+}
+#maintitle {
+  font-family: "Cormorant Garamond", "serif";
+}
+#aboutheader{
+  text-decoration: underline;
+}
 h1 {
-text-shadow: 2px 2px #6f6f6f;
 font-family:"Julius Sans One", "Raleway", "sans-serif";
 font-weight:normal;
 font-size: 55px;
@@ -36,7 +47,6 @@ margin: 0;
 padding: 0;
 }
 h2 {
-text-shadow: 2px 2px #6f6f6f;
 font-family:"Julius Sans One", "Raleway", "sans-serif";
 font-weight: normal;
 font-size: 40px;
@@ -46,7 +56,6 @@ margin: 0;
 padding: 0;
 }
 h3 {
-text-shadow: 2px 2px #6f6f6f;
 font-family:"Julius Sans One", "sans-serif";
 font-weight: normal;
 font-size: 16px;
@@ -56,10 +65,16 @@ padding: 0;
 z-index: 1;
 position: relative;
 }
+
+#runninggent{
+  width: 320px;
+  height:250px;
+}
 #slide1, #slide2, #slide3{
   width: 100%;
 }
 #slide1{
+  text-shadow: 2px 2px #6f6f6f;
 background:url('http://www.wellvyl.com/wp-content/uploads/2013/08/keep_running-wallpaper-1920x1080.jpg') 50% 0 no-repeat fixed;
 color: #fff;
 height: 800px;
@@ -73,7 +88,8 @@ color: #333333;
 height: 400px;
 margin: 0 auto;
 overflow: hidden;
-padding: 400px 0;
+padding: 200px 0 500px 0;
+position: relative;
 }
 #slide3{
 background: url('http://weknowyourdreams.com/images/nature/nature-06.jpg') 50% 0 no-repeat fixed;
