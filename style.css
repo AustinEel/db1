@@ -25,7 +25,7 @@ width: 100%;
 }
 
 h1 {
-font-family:'Raleway', "HelveticaNeue-Light", "Helvetica Neue", "Helvetica", "Futura", "Arial";
+font-family:"Julius Sans One", "Raleway", "sans-serif";
 font-weight:normal;
 font-size: 55px;
 text-align: center;
@@ -34,7 +34,7 @@ margin: 0;
 padding: 0;
 }
 h2 {
-font-family:'Raleway', "HelveticaNeue-Light", "Helvetica Neue", "Helvetica", "Futura", "Arial";
+font-family:"Julius Sans One", "Raleway", "sans-serif";
 font-weight: normal;
 font-size: 40px;
 text-align: center;
@@ -43,7 +43,7 @@ margin: 0;
 padding: 0;
 }
 h3 {
-font-family:'Raleway', "HelveticaNeue-Light", "Helvetica Neue", "Helvetica", "Futura", "Arial";
+font-family:"Julius Sans One", "sans-serif";
 font-weight: normal;
 font-size: 16px;
 text-align: center;
@@ -81,11 +81,16 @@ background-size: cover;
 #footer{
 
 }
+
+#navbarfont {
+  font-family:"Julius Sans One", "Raleway", "sans-serif";
+}
 .center {
   margin: 0 auto;
   text-align: center;
 }
 .content{
+  font-family:"Julius Sans One", "Raleway", "sans-serif";
   margin: 0 auto;
   width: 1024px;
   text-align: center;
@@ -132,5 +137,5 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
   font-size: 30px;
   margin-top: 20px;
   color: #fff;
-  font-family:'Raleway', "HelveticaNeue-Light", "Helvetica Neue", "Helvetica", "Futura", "Arial";
+  font-family:"Julius Sans One", "Raleway", "sans-serif";
   font-weight: bold; }
