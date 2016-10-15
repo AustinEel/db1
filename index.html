@@ -1,32 +1,43 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta content="text/html; charset=utf-8" />
     <title>Bruin Runners Website</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+<script src="http://code.jquery.com/jquery-3.1.1.js"   integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="   crossorigin="anonymous"></script>
   </head>
   <body>
-  <div id="header">
-    <div id=“navbar”>
-  <nav>
-    <a href=“mywebsite.html”>Home</a>
-    <a href=“#about”>About</a>
-    <a href=“#interests”>Interests</a>
-  </nav>
-</div>
-    <h1>Bruin Runners</h1>
-    <img src="http://www.active.com/Assets/Running/620/What+is+Maximalist+Running+LPF.jpg" id="prof-pic">
+  <header id="header">
+    <div class="content">
+      <div id="titlepage"><a href="">BruinRunners</a></div>
+      <nav id="nav">
+       <ul>
+       <li><a href="#slide1" class="active" title="Next Section" >Home</a></li>
+       <li><a href="#slide2" title="Next Section">About Us</a></li>
+       <li><a href="#slide3" title="Next Section">Schedule</a></li>
+       </ul>
+      </nav>
+    <img src="http://www.modernmogulsmarketing.com/wp-content/uploads/2015/06/Running_icon_-_Noun_Project_22889.svg_.png" id="prof-pic">
     <p>Life's short shorts but we're in it for the long run!</p>
     <input type="email" placeholder="Your Email">
     <button>Contact me</buttom>
     </div>
+    </header>
     <div class="container">
-      <div class="column" id="about">
-	<h2>About Us</h2>
-	<p>We're a long distance running club open to all of UCLA. Meet us at the top of Drake Stadium Mondays-Fridays at 5pm and 4pm (Winter Quarter)</p>
+      <div id="slide1" class="content">
+        <div id="runningman"></div>
+        <h2>Welcome to</h2>
+        <h1>BRUINRUNNERS</h1>
+        <hr />
+        <h4>Scroll down for more info!</h4>
       </div>
-    </div>
-    <div id="footer">
-      <a href="https://www.facebook.com/groups/34573802542/"><img class="logo-img" src="https://image.freepik.com/free-icon/facebook-letter-logo_318-40258.jpg"></a>
+      <div id="slide2" class= "content">
+        <div id="info">
+          <h4>We're a long distance running club open to all of UCLA. Meet us at the top of Drake Stadium Mondays-Fridays at 5pm and 4pm (Winter Quarter)</h4>
+        </div>
+      </div>
+    <div id="slide3" class="content">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/2JnYcuRW_qo" frameborder="0" allowfullscreen></iframe>
     </div>
   </body>
 </html>
